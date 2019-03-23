@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.recommendationsGlobalC{
+	display: flex;
+}
+.actionsRecC{
+	display: flex; flex-direction: column;
+}

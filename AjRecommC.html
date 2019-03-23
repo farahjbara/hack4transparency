@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ajouter une recommendation</title>
+<link rel="stylesheet" href="AjRecommC.css">
+</head>
+<body>
+<h2>Ajouter des recommendations:</h2>
+<form id="ajoutFormC">
+	<input type="text" placeholder="Nom de l'etablissement" class="courtTxt" name="etablissementC">
+	<h3>Recommendations</h3>	
+	<div id="recommendation0" class="recommendationsGlobalC">
+		<input type="text" placeholder="Recommendation" class="courtTxt" name="recommendationC0">
+		<div id="actionsRecC1" class="actionsRecC">
+			<!--<label>Action 1</label>--><input type="text" placeholder="Action 1" class="courtTxt" name="actionC0">
+			<input type="text" class="courtTxt" placeholder="Action 2" name="actionC1">
+			<button type="button" id="addActionField" class="courtRoundBtn">+ Action</button>
+		</div>		
+	</div>
+	<br>
+	<button type="submit" id="AddRecommendationSubmit">Valider</button>
+</form>
+<script type="text/javascript" src="AjRecommC.js"></script>
+</body>
+</html>
